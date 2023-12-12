@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>Lulu's HTML & CSS Cheat Sheet</title>
 </head>
 <body>
@@ -116,8 +117,9 @@
         <section id="css-rules">
             <h1>CSS Rules</h1>
 
-            <h2>Applying CSS to HTML</h2>
+            <h2>1. Applying CSS to HTML</h2>
 
+            <!--  External Stylesheets  -->
             <h3>
                 <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#external_stylesheet"
                     target="_blank">
@@ -137,7 +139,7 @@
                     <span class="tag">/&gt</span>
                 </code>
             </div>
-
+<!--            Internal Stylesheets-->
             <h3>
                 <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#internal_stylesheet"
                     target="_blank">
@@ -146,8 +148,26 @@
             </h3>
             <p>An internal stylesheet resides within an HTML document. 
                 To create an internal stylesheet, you place CSS inside a
-                <code>&ltstyle&gt</code> element contained inside the HTML <code>&lthead&gt</code>.</p>
-            <h3>Inline Styles</h3>
+                <code>&ltstyle&gt</code> element contained inside the HTML <code>&lthead&gt</code>.
+            </p>
+
+            <!-- Inline Styles  -->
+            <h3>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured#inline_styles"
+                target="_blank">
+                    Inline Styles
+                </a>
+            </h3>
+            <p>
+                Inline styles are CSS declarations that affect a single HTML element, 
+                contained within a <code>style</code> attribute.
+            </p>
+            <div class="code-box">
+                <code><span class="tag">&ltp</span> 
+                    style=<span class="string">"color: red;"</span>
+                    <span class="tag">&gt</span>This is my first CSS example
+                    <span class="tag">&lt/p&gt</span></code>
+            </div>
         </section>
     </main>
 

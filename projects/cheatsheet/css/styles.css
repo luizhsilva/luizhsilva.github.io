@@ -14,8 +14,14 @@ h1 {
     font-size: 40px;
     letter-spacing: 3px;
     color: hsl(151.76,100%,8.67%);
+    /*text-decoration: underline overline;*/
     font-weight: normal;
     /*font-family: Silkscreen, sans-serif;*/
+    font-family: 'Noto Serif', serif;
+}
+
+h2, h3 {
+    text-align: left;
 }
 
 p {
@@ -90,7 +96,9 @@ header a:hover{
  /* Main section */
 main {
     text-align: center;
+    margin: 0 auto;
     margin-top: 200px;
+    width: 700px;
 }
 
  /* Tables */

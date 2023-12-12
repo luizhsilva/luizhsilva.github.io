@@ -18,6 +18,35 @@ h1 {
     /*font-family: Silkscreen, sans-serif;*/
 }
 
+p {
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(175.44,42.7%, 30.73%, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+.code-box {
+    color: white;
+    background-color: rgb(52, 52, 52);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+code span.tag {
+    color: khaki;
+}
+
+code span.string{
+    color: mediumseagreen;
+}
+
 /* Header */
 header{
     position: fixed;
@@ -45,7 +74,6 @@ header li{
 
 header a {
     color: white;
-    text-decoration: none;
     font-family: Silkscreen, sans-serif;
     font-size: 25px;
     /*font-weight: 300;*/
@@ -99,4 +127,9 @@ th {
 td.description {
     text-align: left;
     padding-left: 10px;
+}
+
+/*  CSS Content  */
+#css-rules a{
+    color: inherit;
 }

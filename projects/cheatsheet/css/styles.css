@@ -18,6 +18,31 @@ h1 {
     /*font-family: Silkscreen, sans-serif;*/
 }
 
+p {
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(175.44,42.7%, 30.73%, 0.5);
+}
+
+code {
+    color: white;
+    background-color: rgb(52, 52, 52);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+code span.tag {
+    color: khaki;
+}
+
+code span.string{
+    color: mediumseagreen;
+}
+
 /* Header */
 header{
     position: fixed;

@@ -85,11 +85,16 @@ header a {
     /*font-weight: 300;*/
     border-radius: 5px;
     padding: 2px 10px;
+    transition: all 0.2s;
+    margin: 2px;
 }
 
 header a:hover{
     background-color: white;
     color: hsl(175.44,42.7%, 30.73%);
+    /* Makes button bigger and decreases margin to make space for it */
+    padding: 4px 12px;
+    margin: 0;
 }
 
 
@@ -139,4 +144,8 @@ td.description {
 /*  CSS Content  */
 #css-rules a{
     color: inherit;
+}
+
+#css-rules a:hover {
+    text-decoration: underline;
 }

@@ -178,7 +178,8 @@ footer {
 footer p{
     font-family: Silkscreen, sans-serif;
     background-color: transparent;
-    text-align: left;
+    text-align: center;
     font-size: small;
     max-width: none;
+    padding: 0;
 }

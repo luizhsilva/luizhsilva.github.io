@@ -1,2 +1,3 @@
 # luizhsilva.github.io
-My public page
+
+Page to display the projects from Codecademy's Full Stack Path. 
